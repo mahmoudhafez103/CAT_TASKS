@@ -1,0 +1,28 @@
+# code 01
+```sql
+SELECT * FROM CITY ;
+```
+
+# code 02
+
+```sql
+SELECT * FROM CITY WHERE ID=1661;
+```
+
+# code 03
+
+```sql
+SELECT * FROM CITY WHERE POPULATION >100000 AND COUNTRYCODE ="USA";
+```
+
+# code 04
+
+```sql
+SELECT NAME FROM CITY WHERE COUNTRYCODE ="JPN";
+```
+
+# code 04
+
+```sql
+SELECT Name FROM STUDENTS WHERE Marks >75 ORDER BY RIGHT(NAME, 3), ID ASC ;
+```
